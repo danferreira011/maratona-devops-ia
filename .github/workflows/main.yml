@@ -27,7 +27,7 @@ jobs:
           tags: |
             danferreira011/kube-news-maratona:v${{ github.run_number }}
             danferreira011/kube-news-maratona:latest
-
+#CD
   deploy-to-kubernetes:
     runs-on: ubuntu-latest
     needs: build-and-push-docker-image
